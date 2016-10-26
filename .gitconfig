@@ -29,8 +29,6 @@
 [merge]
 	conflictstyle = diff3
 	tool = vimdiff
-[push]
-	default = matching
 [user]
 	name = Jon Norman
 	email = jon.norman@guardian.co.uk

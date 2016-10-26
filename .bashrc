@@ -20,8 +20,11 @@ export HISTCONTROL=ignoredups:ignorespace    # Don't put duplicate lines in the 
 # Exports
 export EDITOR=vim
 
-export PS1="[\[\e[0;31m\]\t \u\[\e[m\]@\[\e[0;35m\]\h \[\e[1;32m\]\w\[\e[m\]]\$ "
 export PS1="[\[\e[0;31m\]\u\[\e[m\]@\[\e[0;35m\]\h \[\e[1;32m\]\w\[\e[m\]]> "
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/dev
+source /usr/local/bin/virtualenvwrapper.sh
 
 # User variables
 codegrep() {

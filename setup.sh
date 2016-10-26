@@ -44,6 +44,7 @@ brew install git
 brew install htop
 brew install jq
 brew install node
+brew install python
 brew install sbt
 brew install scala
 brew install tree
@@ -60,6 +61,9 @@ merge-conflicts \
 minimap \
 minimap-cursorline
 
+pip install --upgrade pip
+pip install virtualenv
+pip install virtualenvwrapper
 
 #################
 #OS X Preferences
