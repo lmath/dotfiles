@@ -33,6 +33,7 @@ brew cask install google-drive
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install java
+brew cask install mactex
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
@@ -56,6 +57,7 @@ atom-beautify \
 file-icons \
 intentions \
 language-scala \
+latex \
 linter \
 merge-conflicts \
 minimap \
