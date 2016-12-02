@@ -1,24 +1,6 @@
 [include]
     path = ~/.gitconfig.local
 [alias]
-    co = checkout
-    ci = commit
-    st = status --column
-    stu = status --column -uno
-    br = branch
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-    type = cat-file -t
-    dump = cat-file -p
-
-    diffs = diff --ignore-space-change
-
-    sl = stash list
-    sp = stash pop
-    sa = stash apply
-    ssh= stash show
-    sd = stash drop
-    ssa = stash save
-
     tree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>%Creset' --abbrev-commit --date=relative
     fix = "!f() { vim -p $(git diff --name-only --diff-filter=U); }; f"
 [core]
@@ -30,5 +12,5 @@
 	conflictstyle = diff3
 	tool = vimdiff
 [user]
-	name = Jon Norman
-	email = jon.norman@guardian.co.uk
+	name = Leigh-Anne Mathieson	
+	email = leigh-anne.mathieson@guardian.co.uk

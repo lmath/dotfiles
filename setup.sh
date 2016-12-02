@@ -33,9 +33,7 @@ brew cask install google-drive
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install java
-brew cask install mactex
 brew cask install slack
-brew cask install spectacle
 brew cask install spotify
 
 # Install utilities
@@ -49,19 +47,6 @@ brew install python
 brew install sbt
 brew install scala
 brew install tree
-
-# Install editor plugins
-apm install \
-ensime \
-atom-beautify \
-file-icons \
-intentions \
-language-scala \
-latex \
-linter \
-merge-conflicts \
-minimap \
-minimap-cursorline
 
 pip install --upgrade pip
 pip install virtualenv
@@ -86,9 +71,6 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Don't create .DS_Store files on network drives
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-
-#Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0.02
 
 #Set a shorter Delay until key repeat
 defaults write NSGlobalDomain InitialKeyRepeat -int 12
